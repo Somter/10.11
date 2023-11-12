@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    .vidd1 {
+        width: 960px;
+        height: 500px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .videos_block {
+        display: flex;
+        align-items: self-end;
+    }
+
+    #small_video {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5em;
+        margin-left: 1em;
+        /* margin-right: 1em; */
+    }
+
+    .vidd2 {
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 0.5em;
+        object-fit: cover;
+    }
+
+    .main_video {
+        display: flex;
+    }
+
+    .text {
+        margin-left: 8%;
+        font-size: 85%;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .text2 {
+        margin-top: -7%;
+        font-size: 65%;
+        margin-left: 8%;
+    }
+
+    .green-text {
+        margin-top: -7%;
+        font-size: 65%;
+        margin-left: 8%;
+        width: 100%;
+        color: green;
+        background-color: rgb(231, 231, 231);
+        padding: 1px;
+    }
+
+    .channel {
+        display: flex;
+        width: 100%;
+    }
+
+    .subscribe {
+        background-color: black;
+        color: white;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 15%;
+    }
+
+    .like {
+        margin-left: 500px;
+    }
+
+    #photo {
+        margin-left: 2%;
+    }
+
+    .description {
+        width: 67%;
+        height: 100%;
+        padding-top: 10%;
+        margin-top: 1%;
+        background-color: rgb(238, 236, 236);
+        padding: 5px;
+        text-align: justify;
+       
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="videos_block">
+            <div id="block1">
+                <video class="vidd1" controls poster="hq720.jpg">
+                    <source src="pexels_videos_2278095 (240p).mp4" type="video/mp4">
+                </video>
+                <p style="margin-top: 0%; font-size: 20px;"><b>Основы программирования</b></p>
+            </div>
+            <div id="small_video">
+                <div class="video main_video">
+                    <video class="vidd2" loop controls>
+                        <source src="pexels-cottonbro-5385964 (240p).mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <p class="text">Alien: Covenant</p>
+                        <p class="text2">Фильмы</p>
+                        <p class="text2">Научная фантастика * 2017</p>
+                        <p class="green-text">Купить или взять напрокат</p>
+                    </div>
+                </div>
+                <div class="video main_video">
+                    <video class="vidd2" loop controls>
+                        <source src="pexels-nicky-pe-18738972 (240p).mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <p class="text">Щенячий Патруль</p>
+                        <p class="text2">Фильмы</p>
+                        <p class="text2">Для всей семьи * 2021</p>
+                        <p class="green-text">Купить или взять напрокат</p>
+                    </div>
+                </div>
+                <div class="video main_video">
+                    <video class="vidd2" loop controls>
+                        <source src="pexels-nathan-j-hilton-17977044 (240p).mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <p class="text">Джокер</p>
+                        <p class="text2">Фильмы</p>
+                        <p class="text2">Драмы * 2019</p>
+                        <p class="green-text">Купить или взять напрокат</p>
+                    </div>
+                </div>
+                <div class="video main_video">
+                    <video class="vidd2" loop controls>
+                        <source src="pexels-ahmed-ツ-18338310 (240p).mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <p class="text">Трасформеры</p>
+                        <p class="text2">Фильмы</p>
+                        <p class="text2">Боевики и приключения * 2023</p>
+                        <p class="green-text">Купить или взять напрокат</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+            <div class="channel">
+                <div style="margin-top: 0.5%; display: flex; width: 14%;">
+                    <img style="border-radius: 100%;" src="unnamed.jpg" width="40em" height="40em">
+                    <div style="display: flex; flex-direction: column; margin-left: 2%;">
+                        <div><b>Фильмы</b></div>
+                        <div style="font-size: small;">176 млн подписчиков</div>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    Подписаться
+                </div>
+            </div>
+            <div class="description">
+                Avatar The Way of Water reaches new heights and explores
+                undiscovered depths as James Cameron returns to the world
+                of Pandora in this emotionally packed action adventure Set
+                more than a decade after the events of the first film,
+                Avatar The Way of Water launches the story of the Sully
+                family (Jake, Ney, and their kids), the trouble that follows
+                them, the lengths they go to keep each other safe,
+                the battles they fight to stay alive, and the tragedies
+                they endure. All of this against the breathtaking backdrop
+                of Pandora, where audiences are introduced to new Navi
+                cultures and a range of exotic <b>...ещё</b>
+            </div>
+            <div>
+                <div>
+                    <p>Владелец <span style="color: rgb(55, 55, 247); margin-left: 5%;">fox</span></p>
+                    <p style="margin-top: -1.5%;">контента</p>
+                </div>
+                <div>
+                    <p>Дата выхода <span style="margin-left: 3%;">2022</span></p>
+                </div>
+                <div>
+                    <p>Длительность <span style="margin-left: 2%;">13:12:32</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
